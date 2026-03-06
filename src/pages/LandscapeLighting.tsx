@@ -3,11 +3,18 @@ import Footer from "@/components/Footer";
 import HeroBanner from "@/components/HeroBanner";
 import CategoryCard from "@/components/CategoryCard";
 import SectionHeading from "@/components/SectionHeading";
+import SEOHead from "@/components/SEOHead";
 import { landscapeCategories } from "@/data/categories";
 
 const LandscapeLighting = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Landscape Lighting | Highlux — Bollard Lights, Pathway & Garden LED Solutions"
+        description="Explore Highlux's premium landscape lighting range. Bollard lights, tree uplighters, pathway highlighters and wall washers engineered for outdoor beauty and durability. Shop in India."
+        keywords="Highlux landscape lighting, bollard lights India, garden LED lights, pathway lighting, tree uplighters, outdoor LED lights, Highlux outdoor"
+        canonicalPath="/landscape-lighting"
+      />
       <Header />
 
       <HeroBanner

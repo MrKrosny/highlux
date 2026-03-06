@@ -4,7 +4,35 @@ import { ArrowRight, Shield, Zap, Award, Lightbulb, Droplets, Building2 } from "
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SectionHeading from "@/components/SectionHeading";
+import SEOHead from "@/components/SEOHead";
 import { landscapeCategories, underwaterCategories, architecturalCategories } from "@/data/categories";
+
+const homeFAQ = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is Highlux?",
+      acceptedAnswer: { "@type": "Answer", text: "Highlux is a premium LED lighting brand based in New Delhi, India. We specialise in landscape lighting, IP68-rated underwater pool lights, and architectural lighting solutions." },
+    },
+    {
+      "@type": "Question",
+      name: "Does Highlux offer IP68 underwater lights?",
+      acceptedAnswer: { "@type": "Answer", text: "Yes. Highlux's underwater lighting range is fully IP68 rated, safe for complete submersion in pools, fountains, and water features." },
+    },
+    {
+      "@type": "Question",
+      name: "Where can I buy Highlux LED lights?",
+      acceptedAnswer: { "@type": "Answer", text: "Contact us at highlux.in, call +91 82872 23086, or visit our showroom at Chandni Chowk, New Delhi." },
+    },
+    {
+      "@type": "Question",
+      name: "What warranty do Highlux products carry?",
+      acceptedAnswer: { "@type": "Answer", text: "Highlux products carry up to a 5-year warranty and are rated for 50,000+ hours." },
+    },
+  ],
+};
 
 interface HeroSlide {
   image?: string;
@@ -83,6 +111,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Highlux — Premium LED Lighting Solutions | Landscape, Underwater & Architectural"
+        description="Highlux is India's top LED lighting brand. Buy premium landscape lights, IP68 underwater pool lights, and architectural LED fixtures. Based in New Delhi. Call +91 82872 23086."
+        keywords="Highlux, Highlux lighting, Highlux LED India, premium LED lights, landscape lighting India, underwater pool lights IP68, architectural LED lighting, bollard lights Delhi"
+        canonicalPath="/"
+        structuredData={homeFAQ}
+      />
       <Header />
 
       {/* Hero Slider */}
