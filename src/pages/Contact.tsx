@@ -3,7 +3,6 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEOHead from "@/components/SEOHead";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -28,14 +27,8 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background animate-fade-in">
-      <SEOHead
-        title="Contact Highlux | Get a Free LED Lighting Quote — New Delhi"
-        description="Contact Highlux for a free LED lighting consultation and quote. Visit our showroom in Chandni Chowk, New Delhi or call +91 82872 23086. Expert advice for landscape, underwater and architectural lighting."
-        keywords="contact Highlux, Highlux New Delhi, LED lighting quote India, buy LED lights Delhi, Highlux showroom, Highlux phone number"
-        canonicalPath="/contact"
-      />
       <Header />
-
+      
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
         <div className="mb-16 text-center space-y-6">
@@ -51,8 +44,8 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="rounded-2xl bg-card p-8">
             <h2 className="text-2xl font-bold mb-6">Send us a message</h2>
-            <form onSubmit={handleSubmit} className="space-y-6 animate-slide-up stagger-2">
-              <div>
+        <form onSubmit={handleSubmit} className="space-y-6 animate-slide-up stagger-2">
+          <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
                   Name
                 </label>
@@ -112,7 +105,7 @@ const Contact = () => {
                   placeholder="Tell us what's on your mind..."
                 />
               </div>
-              <Button
+              <Button 
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-6"
               >

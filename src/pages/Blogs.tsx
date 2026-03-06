@@ -4,18 +4,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroBanner from "@/components/HeroBanner";
 import SectionHeading from "@/components/SectionHeading";
-import SEOHead from "@/components/SEOHead";
 import { blogPosts } from "@/data/blogs";
 
 const Blogs = () => {
   return (
     <div className="min-h-screen bg-background">
-      <SEOHead
-        title="Lighting Insights & Guides | Highlux Blog — LED Lighting Tips & Trends"
-        description="Explore Highlux's expert guides, tips and industry knowledge on LED lighting. Learn about landscape, underwater and architectural lighting for homes and commercial spaces."
-        keywords="Highlux blog, LED lighting tips, landscape lighting guide, pool light guide, architectural LED insights, Highlux articles"
-        canonicalPath="/blogs"
-      />
       <Header />
 
       <HeroBanner

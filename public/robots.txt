@@ -1,18 +1,8 @@
-# Highlux — robots.txt
-# Allow all major search engines to crawl the site
-
-User-agent: *
-Allow: /
-Disallow: /src/
-Disallow: /.git/
-
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 2
 
 User-agent: Twitterbot
 Allow: /
@@ -20,5 +10,5 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-# Sitemap location
-Sitemap: https://highlux.in/sitemap.xml
+User-agent: *
+Allow: /

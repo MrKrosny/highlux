@@ -3,18 +3,11 @@ import Footer from "@/components/Footer";
 import HeroBanner from "@/components/HeroBanner";
 import CategoryCard from "@/components/CategoryCard";
 import SectionHeading from "@/components/SectionHeading";
-import SEOHead from "@/components/SEOHead";
 import { architecturalCategories } from "@/data/categories";
 
 const ArchitecturalLighting = () => {
   return (
     <div className="min-h-screen bg-background">
-      <SEOHead
-        title="Architectural Lighting | Highlux — Panel Lights, Track Systems & COB Spotlights"
-        description="Discover Highlux architectural LED lighting: panel lights, track systems, COB spotlights and recessed fixtures for commercial and residential interiors. Premium quality, India-wide delivery."
-        keywords="Highlux architectural lighting, LED panel lights India, track lighting, COB spotlight, recessed LED lights, interior lighting India, Highlux commercial lighting"
-        canonicalPath="/architectural-lighting"
-      />
       <Header />
 
       <HeroBanner
