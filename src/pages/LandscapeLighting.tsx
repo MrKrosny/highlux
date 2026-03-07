@@ -13,7 +13,7 @@ const LandscapeLighting = () => {
       <HeroBanner
         title="Landscape Lighting"
         subtitle="Transform your outdoor spaces with premium LED landscape lighting. From garden pathways to architectural facades, illuminate every corner with elegance."
-        image="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&h=1080&fit=crop"
+        image="/landscape-lighting-hero.jpg"
         ctaText="Get a Quote"
         ctaHref="/contact"
         secondaryCta="Chat on WhatsApp"

@@ -17,7 +17,7 @@ interface HeroSlide {
 
 const heroSlides: HeroSlide[] = [
   {
-    image: "/images/hero-landscape.jpg",
+    image: "/landscape-lighting-hero.jpg",
     title: "Landscape Lighting",
     subtitle: "Premium outdoor LED lighting that transforms gardens, pathways, and facades into stunning nightscapes.",
     cta: "Explore Landscape",
@@ -31,7 +31,7 @@ const heroSlides: HeroSlide[] = [
     href: "/underwater-lighting",
   },
   {
-    image: "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=1920&h=1080&fit=crop",
+    image: "/arch-lighting-home.png",
     title: "Architectural Lighting",
     subtitle: "From track lights to panel fixtures — precision lighting for commercial and residential interiors.",
     cta: "Explore Architectural",

@@ -28,8 +28,8 @@ const UnderwaterLighting = () => {
         </div>
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <p className="text-secondary-foreground/80 text-lg leading-relaxed">
-            Our underwater lighting collection features marine-grade stainless steel construction, 
-            advanced thermal management, and RGB color-changing capabilities. Every fixture is rigorously 
+            Our underwater lighting collection features marine-grade stainless steel construction,
+            advanced thermal management, and RGB color-changing capabilities. Every fixture is rigorously
             tested to exceed IP68 standards for complete submersion reliability.
           </p>
         </div>
